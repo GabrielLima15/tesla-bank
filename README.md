@@ -18,7 +18,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Next.js;
 - TailwindCSS;
 - Typescript;
-- ScrollReveal;
+- NextReveal;
 - AOS Animate;
 
 ---
