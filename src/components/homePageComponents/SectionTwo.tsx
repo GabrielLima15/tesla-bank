@@ -23,9 +23,9 @@ export const SectionTwo = () => {
       distance="20px"
       reset={false}
     >
-      <main className="min-h-screen py-8">
-        <div className="container mx-auto flex w-[80%] items-center justify-between">
-          <main className="relative flex gap-2">
+      <main className="">
+        <div className="flex justify-between px-8 py-40 lg:container lg:mx-auto lg:flex  lg:w-[95%] lg:items-center lg:justify-between">
+          <main className="relative hidden gap-2 xl:flex">
             <div className="dark:hidden">
               <Image
                 data-aos="fade-right"
@@ -66,18 +66,18 @@ export const SectionTwo = () => {
             </div>
           </main>
           <main className="flex flex-col items-start gap-4">
-            <h1 className="font-dmSans text-[3.5rem] font-medium leading-[3.85rem] tracking-[-0.1875rem] text-dark-10 dark:text-white">
+            <h1 className="font-dmSans text-[2.3rem] font-medium tracking-[-0.1875rem] text-dark-10 dark:text-white md:text-[3.5rem] md:leading-[3.85rem]">
               Abra sua conta{' '}
               <span className="text-brand-color-red">gratuita</span>!
             </h1>
-            <span className="font-inter text-[1.5rem] font-medium leading-[2.55rem] text-dark-10 dark:text-white">
+            <span className="font-inter text-[1rem] font-medium text-dark-10 dark:text-white md:text-[1.5rem] md:leading-[2.55rem]">
               Envie e receba dinheiro de forma mais prática e rápida. Faça Pix,{' '}
               <br />
               TEDs e transferências para todos os bancos sem pagar nada.
             </span>
             <div className="flex flex-col space-y-10">
-              <div className="flex items-center space-x-10">
-                <div className="bg-brand-color-white flex h-[4rem] w-[4rem] items-center justify-center rounded-[0.5rem] dark:bg-brand-color-red">
+              <div className="flex items-center space-x-10 py-8 md:py-0">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
                   <DollarSign
                     className="text-brand-color-red dark:text-white"
                     size={30}
@@ -92,8 +92,8 @@ export const SectionTwo = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex items-center space-x-10">
-                <div className="bg-brand-color-white flex h-[4rem] w-[4rem] items-center justify-center rounded-[0.5rem] dark:bg-brand-color-red">
+              <div className="flex items-center space-x-10 py-8 md:py-0">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
                   <Smartphone
                     className="text-brand-color-red dark:text-white"
                     size={30}
@@ -108,8 +108,8 @@ export const SectionTwo = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex items-center space-x-10">
-                <div className="bg-brand-color-white flex h-[4rem] w-[4rem] items-center justify-center rounded-[0.5rem] dark:bg-brand-color-red">
+              <div className="flex items-center space-x-10 py-8 md:py-0">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
                   <Smile
                     className="text-brand-color-red dark:text-white"
                     size={30}

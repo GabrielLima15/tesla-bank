@@ -13,13 +13,13 @@ import { RevealList } from 'next-reveal'
 
 export const SectionThree = () => {
   return (
-    <div className="bg-brand-color-white min-h-screen dark:bg-zinc-900">
-      <main className="container mx-auto flex w-[80%] flex-col  py-[9.38rem]">
+    <div className="bg-brand-color-white dark:bg-zinc-900">
+      <main className="flex-col justify-between px-8 py-32 lg:container lg:mx-auto lg:w-[95%] lg:items-center lg:justify-between">
         <main className="pb-[2.5rem]">
           <span className="font-dmSans text-[1.25rem] font-bold uppercase text-brand-color-red">
             #inovação
           </span>
-          <h2 className="font-dmSans text-[3.5rem] font-medium leading-[3.85rem] tracking-[0.105rem] text-dark-10 dark:text-white">
+          <h2 className="font-dmSans text-[1.5rem] font-medium tracking-[0.105rem] text-dark-10 dark:text-white md:text-[3.5rem] md:leading-[3.85rem]">
             Quais as vantagens <br /> de usar
             <span className="text-brand-color-red">TeslaBank</span>?
           </h2>

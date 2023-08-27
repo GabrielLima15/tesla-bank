@@ -57,3 +57,31 @@ body {
   transition: width 40ms;
 }
 
+.menu-mobile {
+  animation: fadeIn 0.5s;
+  
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.move-x-one {
+  transform: rotate(45deg) translate(3px, 7px);
+}
+
+.move-x-two {
+  transform: rotate(-45deg) translate(-1px, -5px);
+}
+
+.reset-icon-move{
+  width: 32px;
+  margin: 8px;
+  height: 2px;
+  transition-duration: 0.5s;
+}
