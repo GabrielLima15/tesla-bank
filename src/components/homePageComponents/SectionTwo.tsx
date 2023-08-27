@@ -77,7 +77,7 @@ export const SectionTwo = () => {
             </span>
             <div className="flex flex-col space-y-10">
               <div className="flex items-center space-x-10 py-8 md:py-0">
-                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-zinc-800">
                   <DollarSign
                     className="text-brand-color-red dark:text-white"
                     size={30}
@@ -93,7 +93,7 @@ export const SectionTwo = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-10 py-8 md:py-0">
-                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-zinc-800">
                   <Smartphone
                     className="text-brand-color-red dark:text-white"
                     size={30}
@@ -101,15 +101,16 @@ export const SectionTwo = () => {
                 </div>
                 <div>
                   <h3 className="mb-[0.5rem] font-dmSans text-[1.5rem] font-medium text-dark-10 dark:text-white">
-                    Seu dinheiro rendendo mais
+                    Conta digital 100% grátis
                   </h3>
                   <span className="font-inter text-dark-10 dark:text-white">
-                    Rendem mais que a poupança e você resgata quando quiser.
+                    Transferências, boletos de depósito e outros serviços
+                    gratuitos.
                   </span>
                 </div>
               </div>
               <div className="flex items-center space-x-10 py-8 md:py-0">
-                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-brand-color-red">
+                <div className="flex items-center justify-center rounded-[0.5rem] bg-brand-color-white p-4 dark:bg-zinc-800">
                   <Smile
                     className="text-brand-color-red dark:text-white"
                     size={30}
@@ -117,10 +118,11 @@ export const SectionTwo = () => {
                 </div>
                 <div>
                   <h3 className="mb-[0.5rem] font-dmSans text-[1.5rem] font-medium text-dark-10 dark:text-white">
-                    Seu dinheiro rendendo mais
+                    Cartão sem anuidade
                   </h3>
                   <span className="font-inter text-dark-10 dark:text-white">
-                    Rendem mais que a poupança e você resgata quando quiser.
+                    Conta digital com cartão de crédito sem anuidade e sem
+                    complicação.
                   </span>
                 </div>
               </div>
