@@ -29,11 +29,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
 
       <body>
-        <main className="hidden min-h-screen w-full bg-white xl:block">
+        <main className="hidden min-h-screen w-full bg-white dark:bg-dark-20 xl:block">
           <Header />
           {children}
         </main>
-        <main className="flex min-h-screen items-center justify-center bg-white text-center xl:hidden">
+        <main className="flex min-h-screen items-center justify-center bg-white text-center dark:bg-dark-20 xl:hidden">
           <h2 className="animate-pulse font-dmSans text-lg font-bold text-red-500 sm:text-3xl">
             SITE EM DESENVOLVIMENTO <br />
             AINDA NÃO ESTÁ 100% RESPONSIVO!

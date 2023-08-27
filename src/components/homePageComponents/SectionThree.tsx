@@ -13,15 +13,15 @@ import { RevealList } from 'next-reveal'
 
 export const SectionThree = () => {
   return (
-    <div className="min-h-screen bg-[#FFF8F9]">
+    <div className="bg-brand-color-white min-h-screen dark:bg-zinc-900">
       <main className="container mx-auto flex w-[80%] flex-col  py-[9.38rem]">
         <main className="pb-[2.5rem]">
-          <span className="font-dmSans text-[1.25rem] font-bold uppercase text-[#EB3850]">
+          <span className="font-dmSans text-[1.25rem] font-bold uppercase text-brand-color-red">
             #inovação
           </span>
-          <h2 className="leading-[3.85rem ] font-dmSans text-[3.5rem] font-medium tracking-[0.105rem] text-[#1A191E]">
+          <h2 className="font-dmSans text-[3.5rem] font-medium leading-[3.85rem] tracking-[0.105rem] text-dark-10 dark:text-white">
             Quais as vantagens <br /> de usar
-            <span className="text-[#EB3850]">TeslaBank</span>?
+            <span className="text-brand-color-red">TeslaBank</span>?
           </h2>
         </main>
         <RevealList
@@ -38,7 +38,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <CreditCard
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }
@@ -49,7 +49,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <ShoppingCart
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }
@@ -60,7 +60,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <Clock
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }
@@ -73,7 +73,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <Shield
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }
@@ -84,7 +84,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <Percent
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }
@@ -95,7 +95,7 @@ export const SectionThree = () => {
               <Cards
                 icon={
                   <Gift
-                    className="text-[#EB3850] transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
+                    className="text-brand-color-red transition delay-150 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:scale-110"
                     size={30}
                   />
                 }

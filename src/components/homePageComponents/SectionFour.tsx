@@ -4,16 +4,16 @@ import { RevealList } from 'next-reveal'
 
 export const SectionFour = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-dark-20">
       <main className="container mx-auto flex w-[80%] flex-col  py-[9.38rem]">
         <main className="pb-[2.5rem]">
-          <span className="font-dmSans text-[1.25rem] font-bold uppercase text-[#EB3850]">
+          <span className="font-dmSans text-[1.25rem] font-bold uppercase text-brand-color-red">
             #depoimentos
           </span>
-          <h2 className="font-dmSans text-[3.5rem] font-medium leading-[3.85rem] tracking-[0.105rem] text-[#1A191E]">
+          <h2 className="font-dmSans text-[3.5rem] font-medium leading-[3.85rem] tracking-[0.105rem] text-dark-10 dark:text-white">
             TeslaBank fora das telinhas: <br />
           </h2>
-          <span className="font-dmSans text-[3.5rem] font-normal leading-[3.85rem] tracking-[0.105rem] text-[#1A191E]">
+          <span className="font-dmSans text-[3.5rem] font-normal leading-[3.85rem] tracking-[0.105rem] text-dark-10 dark:text-white">
             Veja o que estão falam sobre nós.
           </span>
         </main>

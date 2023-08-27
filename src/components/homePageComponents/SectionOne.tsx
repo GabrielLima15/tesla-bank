@@ -31,31 +31,31 @@ export const SectionOne = () => {
             reset={false}
           >
             <main className="flex flex-col items-start gap-4">
-              <h1 className="font-dmSans text-[5.5rem] font-medium leading-[6.05rem] tracking-[-0.165rem] text-[#1A191E]">
+              <h1 className="font-dmSans text-[5.5rem] font-medium leading-[6.05rem] tracking-[-0.165rem] text-dark-10 dark:text-white">
                 TeslaBank <br /> seu banco digital.
               </h1>
-              <span className="font-inter text-[1.5rem] font-medium leading-[2.55rem] text-[#1A191E]">
+              <span className="font-inter text-[1.5rem] font-medium leading-[2.55rem] text-dark-10 dark:text-white">
                 Com TeslaBank, você pode realizar transferências <br />{' '}
                 bancárias com zero taxa e pagar suas contas.
               </span>
               <div className="mb-14 inline-flex justify-center gap-12">
-                <li className="flex-col items-start gap-12">
-                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-[#1A191E]">
-                    <Check className="text-[#EB3850]" />
+                <li className="list-none flex-col items-start gap-12">
+                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-dark-10 dark:text-white">
+                    <Check className="text-brand-color-red" />
                     Transferência instantânea
                   </span>
-                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-[#1A191E]">
-                    <Check className="text-[#EB3850]" />
+                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-dark-10 dark:text-white">
+                    <Check className="text-brand-color-red" />
                     Sem taxas absurdas
                   </span>
                 </li>
-                <li className="flex-col items-start gap-12">
-                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-[#1A191E]">
-                    <Check className="text-[#EB3850]" />
+                <li className="list-none flex-col items-start gap-12">
+                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-dark-10 dark:text-white">
+                    <Check className="text-brand-color-red" />
                     Pagamentos em todo o mundo
                   </span>
-                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-[#1A191E]">
-                    <Check className="text-[#EB3850]" />
+                  <span className="flex items-center gap-4 font-inter font-medium leading-[2.025rem] text-dark-10 dark:text-white">
+                    <Check className="text-brand-color-red" />
                     100% pensando em você
                   </span>
                 </li>
