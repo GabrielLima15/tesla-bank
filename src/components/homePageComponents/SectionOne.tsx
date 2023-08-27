@@ -3,16 +3,15 @@
 import { Check, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
-import cardOne from '../../../../public/assets/cardOne.svg'
-import cardTwo from '../../../../public/assets/cardTwo.svg'
-import playStore from '../../../../public/assets/playStore.svg'
-import apple from '../../../../public/assets/appe.svg'
+import cardOne from '../../../public/assets/carOne.svg'
+import cardTwo from '../../../public/assets/cardTwo.svg'
+import playStore from '../../../public/assets/playStore.svg'
+import apple from '../../../public/assets/appe.svg'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import { useEffect, useRef } from 'react'
-import ScrollReveal from 'scrollreveal'
 
 export const SectionOne = () => {
   useEffect(() => {
@@ -22,16 +21,19 @@ export const SectionOne = () => {
   const containerRef = useRef(null)
 
   useEffect(() => {
-    if (containerRef.current) {
-      ScrollReveal().reveal(containerRef.current, {
-        // opções de configuração do ScrollReveal
-        delay: 350,
-        distance: '20px',
-        duration: 1000,
-        easing: 'ease-in-out',
-        origin: 'top',
-      })
+    async function animate() {
+      if (containerRef.current) {
+        const sr = (await import('scrollreveal')).default
+        sr().reveal(containerRef.current, {
+          delay: 350,
+          distance: '20px',
+          duration: 1000,
+          easing: 'ease-in-out',
+          origin: 'top',
+        })
+      }
     }
+    animate()
   }, [])
   return (
     <>

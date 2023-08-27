@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 // eslint-disable-next-line camelcase
 import { Inter, DM_Sans } from 'next/font/google'
 import { ReactNode } from 'react'
-import { Header } from './components/Header'
+import { Header } from '../components/Header'
 
 const inter = Inter({
   weight: ['400', '500', '600'],

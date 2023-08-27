@@ -29,17 +29,19 @@ body {
 .animation-moveIconOne {
   animation: moveIconOne 2s infinite alternate;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s
+  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;
 }
+
 .animation-moveIconTwo {
   animation: moveIconOne 2s infinite alternate;
-  ttransform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;
 }
+
 .animation-moveIconTre {
   animation: moveIconOne 2s infinite alternate;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s
+  transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.6s;
 }
 
 @keyframes moveIconOne {
@@ -50,6 +52,8 @@ body {
     transform: translate3d(10px, -40px, 0);
   }
 }
-.icon-width-animation: {
-  transition-width: duration-40
+
+.icon-width-animation {
+  transition: width 40ms;
 }
+
