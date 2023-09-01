@@ -33,7 +33,7 @@ export const SectionThree = () => {
           reset={false}
           interval={60}
         >
-          <div className="flex flex-col space-y-8">
+          <div className="flex flex-col  space-y-8">
             <main className="flex flex-col space-y-8 lg:flex-row lg:space-x-8 lg:space-y-0">
               <Cards
                 icon={

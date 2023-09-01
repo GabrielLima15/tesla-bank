@@ -24,48 +24,52 @@ export const SectionFive = () => {
           </span>
         </main>
         <div className="mb-0 flex flex-col items-center justify-center pb-0">
-          <div className="relative hidden md:block">
-            <Image
-              src={cardOne}
-              alt={''}
-              className="relative"
-              data-aos="fade-right"
-            />
-            <Image
-              src={cardTwo}
-              alt={''}
-              className="relative bottom-52"
-              data-aos="fade-left"
-              data-aos-delay="350"
-            />
-            <Image
-              src={cardThree}
-              alt={''}
-              className="absolute bottom-28"
-              data-aos="fade-up"
-              data-aos-dalay="450"
-            />
-          </div>
-          <RevealList
-            origin="top"
-            delay={350}
-            duration={1000}
-            easing="ease-in-out"
-            distance="20px"
-            reset={false}
-            interval={20}
-          >
-            <div className="relative block md:hidden">
+          <div className="relative">
+            <RevealWrapper
+              origin="left"
+              delay={350}
+              duration={1000}
+              easing="ease-in-out"
+              distance="20px"
+              reset={false}
+            >
               <Image src={cardOne} alt={''} className="relative" />
-              <Image src={cardTwo} alt={''} className="relative bottom-36" />
-              <Image src={cardThree} alt={''} className="absolute bottom-16" />
-            </div>
-          </RevealList>
-          <div className="flex justify-between gap-x-[0.625rem]">
-            <Button className="flex items-center justify-center whitespace-nowrap rounded-[0.375rem] bg-brand-color-red  transition-colors delay-150 duration-300 hover:bg-brand-color-red/75 dark:bg-brand-color-red dark:text-white dark:hover:bg-brand-color-red/75 md:px-[1.5rem] md:py-[1rem]">
+            </RevealWrapper>
+            <RevealWrapper
+              origin="right"
+              delay={350}
+              duration={1000}
+              easing="ease-in-out"
+              distance="20px"
+              reset={false}
+            >
+              <Image
+                src={cardTwo}
+                alt={''}
+                className="relative bottom-36 md:bottom-52"
+              />
+            </RevealWrapper>
+            <RevealWrapper
+              origin="top"
+              delay={350}
+              duration={1000}
+              easing="ease-in-out"
+              distance="20px"
+              reset={false}
+            >
+              <Image
+                src={cardThree}
+                alt={''}
+                className="absolute bottom-16 md:bottom-28"
+              />
+            </RevealWrapper>
+          </div>
+
+          <div className="flex justify-between gap-x-[0.625rem] max-[320px]:flex-col max-[320px]:space-y-8">
+            <Button className="flex items-center justify-center whitespace-nowrap rounded-[0.375rem] bg-brand-color-red transition-colors  delay-150 duration-300 hover:bg-brand-color-red/75 dark:bg-brand-color-red dark:text-white dark:hover:bg-brand-color-red/75 max-[320px]:whitespace-normal md:px-[1.5rem] md:py-[1rem]">
               Abrir uma conta
             </Button>
-            <Button className="flex items-center justify-center whitespace-nowrap border-2 bg-transparent px-6 py-4 font-inter text-[1.25rem] font-medium leading-[1.25rem] text-dark-20 transition-colors delay-150 duration-300 hover:border-0 hover:bg-brand-color-red hover:text-white dark:border-0 dark:hover:bg-brand-color-red dark:hover:text-white">
+            <Button className="flex items-center justify-center whitespace-nowrap border-2 bg-transparent px-6 py-4 font-inter text-[1.25rem] font-medium leading-[1.25rem] text-dark-20 transition-colors delay-150 duration-300 hover:border-0 hover:bg-brand-color-red hover:text-white dark:border-0 dark:hover:bg-brand-color-red dark:hover:text-white max-[320px]:whitespace-normal">
               Comparar cartões
             </Button>
           </div>

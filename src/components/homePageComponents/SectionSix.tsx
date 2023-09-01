@@ -31,7 +31,7 @@ export const SectionSix = () => {
               Nossa abordagem inovadora e personalizada oferece uma <br />
               experiência única para atender às suas necessidades.
             </span>
-            <div className="mt-[3.87rem] flex items-center space-x-1 md:space-x-[2.5rem]">
+            <div className="mt-[3.87rem] flex items-center space-x-1 max-[320px]:flex-col max-[320px]:space-y-8 md:space-x-[2.5rem]">
               <Button className="flex items-center justify-center space-x-2 whitespace-nowrap p-8 dark:dark:bg-brand-color-red dark:text-white dark:hover:bg-brand-color-red/75 md:space-x-4">
                 <Image src={Apple} alt={''} />
                 <div>
