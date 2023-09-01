@@ -4,6 +4,7 @@ import cardOne from '../../../public/assets/cards-group/cardOne.svg'
 import cardTwo from '../../../public/assets/cards-group/cardTwo.svg'
 import cardThree from '../../../public/assets/cards-group/cardThree.svg'
 import { Button } from '../ui/button'
+import { RevealList, RevealWrapper } from 'next-reveal'
 
 export const SectionFive = () => {
   return (
@@ -23,7 +24,7 @@ export const SectionFive = () => {
           </span>
         </main>
         <div className="mb-0 flex flex-col items-center justify-center pb-0">
-          <div className="relative">
+          <div className="relative hidden md:block">
             <Image
               src={cardOne}
               alt={''}
@@ -45,6 +46,21 @@ export const SectionFive = () => {
               data-aos-dalay="450"
             />
           </div>
+          <RevealList
+            origin="top"
+            delay={350}
+            duration={1000}
+            easing="ease-in-out"
+            distance="20px"
+            reset={false}
+            interval={20}
+          >
+            <div className="relative block md:hidden">
+              <Image src={cardOne} alt={''} className="relative" />
+              <Image src={cardTwo} alt={''} className="relative bottom-36" />
+              <Image src={cardThree} alt={''} className="absolute bottom-16" />
+            </div>
+          </RevealList>
           <div className="flex justify-between gap-x-[0.625rem]">
             <Button className="flex items-center justify-center whitespace-nowrap rounded-[0.375rem] bg-brand-color-red  transition-colors delay-150 duration-300 hover:bg-brand-color-red/75 dark:bg-brand-color-red dark:text-white dark:hover:bg-brand-color-red/75 md:px-[1.5rem] md:py-[1rem]">
               Abrir uma conta
