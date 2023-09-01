@@ -20,6 +20,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Typescript;
 - NextReveal;
 - AOS Animate;
+- Shadcn/ui
 
 ---
 
