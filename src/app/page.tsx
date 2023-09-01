@@ -4,6 +4,9 @@ import { SectionOne } from '../components/homePageComponents/SectionOne'
 import { SectionThree } from '../components/homePageComponents/SectionThree'
 import { SectionTwo } from '../components/homePageComponents/SectionTwo'
 import { SectionSix } from '@/components/homePageComponents/SectionSix'
+import { SectionSeven } from '@/components/homePageComponents/SectionSeven'
+import { SectionEight } from '@/components/homePageComponents/SectionEight'
+import { Footer } from '@/components/homePageComponents/Footer'
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      <SectionSeven />
+      <SectionEight />
+      <Footer />
     </>
   )
 }
