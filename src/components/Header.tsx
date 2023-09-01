@@ -1,5 +1,5 @@
 'use client'
-import { ChevronDown, Menu, X } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import { useState } from 'react'
 
 export const Header = () => {
