@@ -1,7 +1,9 @@
+import { SectionFive } from '@/components/homePageComponents/SectionsFive'
 import { SectionFour } from '../components/homePageComponents/SectionFour'
 import { SectionOne } from '../components/homePageComponents/SectionOne'
 import { SectionThree } from '../components/homePageComponents/SectionThree'
 import { SectionTwo } from '../components/homePageComponents/SectionTwo'
+import { SectionSix } from '@/components/homePageComponents/SectionSix'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionFive />
+      <SectionSix />
     </>
   )
 }
